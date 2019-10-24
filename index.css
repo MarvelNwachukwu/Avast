@@ -1,0 +1,44 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    background-color: #e7d8d8;
+    color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.LeftMain{
+    background-color: black;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
+    background: url(./Assets/Avast-removebg-preview.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.RightMain{
+    background-color: black;
+    line-height: 3em;
+}
+span{
+    color: rgb(255, 153, 51);
+}
+
+button{
+    background-color: rgb(255, 153, 51);
+    width: 20em;
+    height: 5em;
+    border: none;
+    box-shadow:2px 2px rgb(77, 2, 100);
+}
+
+h1{
+    position: relative;
+    left: 20%;
+}
