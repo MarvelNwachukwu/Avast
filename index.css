@@ -34,12 +34,15 @@ span{
 
 button{
     background-color: rgb(255, 153, 51);
-    width: 20em;
-    height: 5em;
+    width: 15em;
+    height: 3em;
     border: none;
     box-shadow:2px 2px rgb(77, 2, 100);
     position: relative;
-    top: 100%;
+    top: 20%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 h1{
@@ -51,6 +54,8 @@ h1{
 ul{
     position: relative;
     top: 30%;
+    left: 10%;
+    line-height: 100px;
 }
 
 li{
@@ -59,5 +64,14 @@ li{
 }
 
 .avast{
-    position: relative;
+    position: absolute;
+    top: 20%;
+    background: url(./Assets/MarkUpIcon.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+
+}
+p{
+    visibility: hidden;
 }
